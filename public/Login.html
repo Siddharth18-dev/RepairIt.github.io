@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Website's Icon-->
+    <link rel="icon" href="Images/ICON.png">
+    <title>Repair It | Login</title>
+<!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+<!--Font Awesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--local External CSS file link-->
+    <link rel="stylesheet" href="CSS/login-style.css">
+  </head>
+
+  <body background="Images/Background.webp">
+<!--login and Registration form-->
+   <div class="hero">
+     <div class="form-box">
+       <div class="button-box">
+         <div id="btn"></div>
+         <button type="button" class="Toggle-btn" name="button" onclick="login()">Log In</button>
+         <button type="button" class="Toggle-btn" name="button" onclick="register()">Register</button>
+       </div>
+       <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook" title="facebook" style="color: orange; width: 25px;"></i></a>
+         <a href="#"><i class="fa-brands fa-twitter" title="Twitter" style="color: orange; width: 25px;"></i></a>
+         <a href="#"><i class="fa-brands fa-google" title="Google" style="color: orange; width: 25px;"></i></a>
+       </div>
+       <form id="login" class="input-groups" action="/login" method="post" autocomplete="on">
+         <input type="" class="input-field" name="username" value="" placeholder="User ID" required>
+         <input type="password" class="input-field" name="password" value="" placeholder="Password" required>
+         <input type="checkbox" class="check-box" name="" value="Remebered"><span>Remeber Password</span>
+         <button type="submit" class="final-submit" name="button">Log in</button>
+       </form>
+       <form id="register" class="input-groups" action="/register" method="post" autocomplete="on">
+         <input type="email" class="input-field" name="email" value="" placeholder="Email ID" required>
+         <input type="text" class="input-field" name="username" value="" placeholder="User ID" required>
+         <input type="password" class="input-field" name="password" value="" placeholder="Password" required>
+         <input type="checkbox" class="check-box" name="checked" value="Remebered"><span>I agree to the Terms and Conditions</span>
+         <button type="submit" class="final-submit" name="button">Register</button>
+       </form>
+     </div>
+   </div>
+
+
+
+
+
+<!--contains Contacting details-->
+    <div class="Contact">
+
+    </div>
+
+<!--Animation for Login and Register swap-->
+  <script>
+   var x = document.getElementById("login");
+   var y = document.getElementById("register");
+   var z = document.getElementById("btn");
+
+   function register() {
+     x.style.left = "-400px";
+     y.style.left = "50px";
+     z.style.left = "110px";
+   }
+   function login() {
+     x.style.left = "50px";
+     y.style.left = "450px";
+     z.style.left = "0";
+   }
+  </script>
+<!--bootstrap poppers-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<!--bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

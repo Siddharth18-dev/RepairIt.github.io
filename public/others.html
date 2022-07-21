@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Website's Icon-->
+    <link rel="icon" href="Images/ICON.png">
+    <title>Repair It | Electrical Appliances</title>
+<!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@700&family=Edu+SA+Beginner&family=Koulen&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+<!--Font Awesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--local External CSS file link-->
+    <link rel="stylesheet" href="CSS/style.css">
+      </head>
+
+      <body>
+        <section id="title">
+      <!--Top Container will contain nav-bar of following items:
+            1) Login & SignUp buttons
+            2) About
+            3) Contacts
+            4) Jobs-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img id="Logo" src="Images/ICON.png" alt="logo">Repair It</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html#about"><i class="fa-solid fa-envelope"></i> About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#Contact"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-briefcase"></i> Jobs</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="Jobs.html">SDE</a></li>
+                    <li><a class="dropdown-item" href="Jobs.html">Technician</a></li>
+                    <li><a class="dropdown-item" href="Jobs.html">BPO</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Jobs.html">Others</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link active" href="Login.html"><button type="button" class="btn btn-primary">Login</button></a></li>
+                <li class="nav-item"><a class="nav-link active" href="Login.html"><button type="button" class="btn btn-outline-light">Sign Up</button></a></li>
+              </ul>
+            </div>
+         </div>
+        </nav>
+      </section>
+
+      <div class="navigation">
+        <ul style="padding-left: 12px;">
+          <li><a href="#Cateogory"><span class="icon"><i class="fa-solid fa-book-open"></i> <span class="title">Cateogries</span></a></li>
+          <li><a href="#Background"><span class="icon"><i class="fa-solid fa-puzzle-piece"></i> <span class="title">Background</span></a></li>
+          <li><a href="#TV"><span class="icon"><i class="fa-solid fa-tv"></i><span class="title">TVs</span></a></li>
+          <li><a href="#Printer"><span class="icon"><i class="fa-solid fa-print"></i><span class="title">Printers</span></a></li>
+          <li><a href="#Console"><span class="icon"><i class="fa-solid fa-gamepad"></i><span class="title">Console</span></a></li>
+          <li><a href="#Others"><span class="icon"><i class="fa-solid fa-video"></i><span class="title">CCTV</span></a></li>
+        </ul>
+      </div>
+
+    <section style="margin-top: 130px; margin-left: 100px;">
+      <h1 id="Cateogory" style="font-family: 'Koulen', cursive;">Cateogries</h1>
+      <div class="row" style="margin-top: 0px; margin-left: 0px;margin-right: 0;">
+        <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+          <img src="Images/Cateogory-OthersTV.png" alt="TV" style="width: 200px; margin-top: 40px;">
+          <h5 style="text-align: center;">TV</h5>
+        </div>
+        <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+          <img src="Images/Cateogory-OthersPrinter.jpg" alt="Printer" style="width: 180px;">
+          <h5 style="text-align: center;">Printers</h5>
+        </div>
+        <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+          <img src="Images/Cateogory-OthersGame.jpg" alt="Gaming Console" style="width: 180px; margin-top: 40px;">
+          <h5 style="text-align: center;">Game Console</h5>
+        </div>
+        <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+          <img src="Images/Cateogory-OthersCamera.jpg" alt="Camera" style="width: 180px; margin-top: 40px;">
+          <h5 style="text-align: center;">CCTV Cameras</h5>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="Background" style="margin-top: 130px; margin-left: 100px;">
+      <div class="container-fluid">
+        <h1 style="font-family: 'Koulen', cursive;">Background and Identification</h1><hr>
+         <p>Identifying exactly which Appliance you own can sometimes be a challenge, depending on the manufacturer. Usually the manufacturer name is listed on the front, while the exact model number may be found on the back.</p><br>
+         <p>Digital computers have existed in various forms since the early 1940s. One of the most prominent computers of the time, the ENIAC, used vacuum tubes and was considered to be the first general purpose electronic computer. However, computer manufacturers in the early 1960s started using transistors. The development of integrated circuits (ICs) made computers steadily increase in computing power, all the while bringing down costs of manufacture and power consumption.</p><br>
+         <p>By the 1980s the first personal computers came on the market, giving the casual user unparalleled computing abilities at home.</p>
+      </div>
+    </section>
+
+    <section id="Common" style="margin-top: 130px; margin-left: 100px;">
+      <div class="container-fluid">
+          <h1 style="font-family: 'Koulen', cursive;">Common Electrical Appliances Prevalent in Delhi</h1><hr>
+          <p>Why do we blame nation’s power system without even checking the poor wiring inside our home? It may be out-dated and won’t be efficient in supplying electricity to the appliances, electronics and lighting.</p><br>
+           <p>The problem is that the circuits fitted during older days were not designed to power different types of electronic equipment or lighting of this era.</p><br>
+           <p>There may be obvious signs of strains with more extension cords and single outlet paving the way to sprout power strips or lurking not seen at the back of ceilings, walls and cover plates.</p><br>
+           <p>So when considering household electric appliances, your safety is the main goal. If you are facing high bills, flickering lights and damaged appliances at your home, you can make sure the home circuit is not in a proper working condition.</p><br>
+          <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+      </div>
+    </section>
+
+    <section id="TV" style="margin-top: 130px; margin-left: 100px;">
+      <div class="row" style="margin-right: 0px;">
+        <div class="col-lg-6">
+          <h1 style="font-family: 'Koulen', cursive;">TV Repair</h1><hr>
+          <p>Door Step TV Repair Center in Delhi Noida, Ghaziabad. We provide LED TV and LCD TV Repair Service in Delhi Noida and Ghaziabad. We are well known for TV Repair and TV Service in all the major areas of Delhi Noida for Repairing your Television of any brand TV Repair and TV Service. Our team of experts provides excellent Television repair services to all the Televisions of your chosen brands, so that you can enjoy your favorite movies and shows in no time. Our TV Repair center is your one stop service center for your entire consumer branded Television repair needs. Select from our wide range of high quality and pocket friendly maintenance deals for most convenient and budgetable TV repair services. Our professional experts forte in serving issues like vertical lines display issue, backlight services, and many more is acknowledgeable when it comes to servicing any LED TV and LCD TV of your choice.</p>
+        </div class="col-lg-6">
+        <img src="Images/TV_repair.jpg" alt="TV Repairing Services" style="width: 350px; margin-top: 40px; margin-left: 50px;">
+      </div>
+      <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+    </section>
+
+    <section id="Printer" style="margin-top: 130px; margin-left: 100px;">
+      <h1 style="font-family: 'Koulen', cursive;">Printers</h1><hr>
+      <p>When an office printer doesn’t perform its one job, it’s easy to feel frustrated. And if that faulty device is a multifunction printer (MFP) that also acts as your scanner and copier, you lose precious business time and productivity will suffer.</p><br>
+      <p>It's enough to make you want to throw your hands up in surrender (or throw your printer against the wall). Many issues, however, can be solved with a little DIY printer know-how.</p><br>
+      <p>To help you get back up and running with as little downtime as possible, we compiled a list of the following 10 common printer problems and how to fix them.</p><br>
+      <h5>1.  Printer is Unresponsive</h5>
+      <p>Before we get too deep into specific common printer problems and solutions, consider the best practices that our Managed Print technicians follow first. Always make sure the basics have been checked before trying to solve common problems with printers:</p>
+      <ul>
+        <li> Is the printer on?</li>
+        <li>Does it have paper?</li>
+        <li>Are all necessary cables connected?</li>
+        <li>Are all wireless connections working properly?</li>
+        <li>Have you checked the printer ink or toner cartridges?</li>
+      </ul>
+      <h5>2. Printer Won’t Print</h5>
+      <p>Are you getting error messages on the control panel or simply feel like your print job is stuck somewhere in cyberspace? While the easiest solution is to hit the power button and restart your printer, it's essential to double-check you've selected the correct print settings—preferably before you send a dozen copies of your document to another device located in the next room.<p><br>
+      <h5>3. Bad Print Quality</h5>
+      <p>It may seem insignificant, but the paper you print on can make a major difference in your final print quality. Generally, photo paper sold by your printer’s manufacturer will have fewer issues than generic printer paper. But what’s even more important? Match the printer settings to what you’re printing.</p><br>
+      <h5>4. Uncertain About Printer Security</h5>
+      <p>Most printer manufacturers come with security features already installed to protect against unauthorized access. However, if certain measures aren’t taken, a hacker could use your printer as a back door to breach your network. The biggest steps you can take to prevent this include changing the default password on your printer and ensuring the latest security updates have been installed.</p>
+      <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+    </section>
+
+    <section id="Console" style="margin-top: 130px; margin-left: 100px;">
+      <h1 style="font-family: 'Koulen', cursive;">Game Consoles</h1><hr>
+      <p>A new report finds that errors with the Xbox One and unprovoked PlayStation 4 shutdowns top of the list of the most common hardware problems currently facing video gamers. The report, crafted by troubleshooting site Fixya, is based on over 40,000 video game problems submitted by owners of the newest consoles, the Xbox One, Playstation 4 and Wii U. Here are the top 4 most commonly reported problems for each console.</p><br>
+      <p>The biggest problem area for Microsoft's Xbox One (aside from the $499 price tag) is the included Kinect motion sensor, which represents 30% of the trouble reports reviewed. Specifically, a number of people are having difficulty in having the device recognize voice and motion commands, which can effect menu navigation and, in many cases, gameplay. Shutdowns and audio problems occur as well, but are less common.</p><br>
+      <p>The Sony PlayStation 4 may be topping the sales charts, but it’s not due to a lack of problems. The biggest problem in terms of frequency (and likely severity) is unprompted console shutdowns, representing 35% of trouble reports. Especially unfortunate users see these shutdowns take the form of the dreaded “blue light of death” – a worrying sign that you need a new PS4. Problems with audio, freezing, and the disc drive are also issues for owners.</p><br>
+      <p>Not many of you have purchased a Nintendo Wii U, but I predict that may soon be about to change: Nintendo is mere weeks away from releasing the long-awaited Mario Kart 8, and Super Smash Brothers 4 is on its way later in the year. Just watch out for game freezes – the annoying problem represents 35% of Wii U trouble reports and can (rarely) brick your device. Numerous people are having problems with the tablet-like Wii U controller, as well.</p>
+      <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+    </section>
+
+    <section id="Others" style="margin-top: 130px; margin-left: 100px;">
+      <h1 style="font-family: 'Koulen', cursive;">CCTVs and electrical appliances</h1><hr>
+      <p style="color: red;">**Please Specify your Product type for Repairing</p>
+      <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+    </section>
+
+    <section id="Contact">
+      <!--contains Contacting details-->
+          <div class="row" style="margin-right: 0;">
+            <div class="col-lg-6" style="margin-top: 45px;">
+              <h1 style="font-family: 'Koulen', cursive; color: white; margin-left: 20px;">Let's Talk</h1>
+              <p style="font-family: 'PT Serif', serif;; color: white; margin-left: 20px;">We want opinions from our Customers about how can we strengthen/ improve our services through this online platform. Also, Our customers can suggest us UI designs, BUGS and accessebility issues, we will update them. </p>
+            </div>
+            <div class="col-lg-6" style="margin-top: 45px;">
+              <table class="table table-borderless">
+                <thead>
+                 <tr>
+                   <th scope="col" class="foot-table">Email</th>
+                   <th scope="col" class="foot-table-meta">CustomerService@repairIt.in</th>
+                 </tr>
+                </thead>
+                <thead>
+                 <tr>
+                   <th scope="col" class="foot-table">Phone</th>
+                   <th scope="col" class="foot-table-meta">(+91) 9635757575</th>
+                 </tr>
+                </thead>
+                <thead>
+                 <tr>
+                   <th scope="col" class="foot-table">Address</th>
+                   <th scope="col" class="foot-table-meta">Office No. 116/117, Gurgaon Tech Hub, Uttar Pradesh</th>
+                 </tr>
+                </thead>
+                <thead>
+                 <tr>
+                   <th scope="col"></th>
+                   <th scope="col" class="foot-table-meta"><a href="https://www.facebook.com/profile.php?id=100083574849850"><i class="fa-brands fa-facebook"></i></a><a href="https://twitter.com/RepairitCom?t=Iqzgh1nlB1p2PpBTK0OFNw&s=09"><i class="fa-brands fa-twitter"></i></a><a href="mailto:repairit011@gmail.com"><i class="fa-brands fa-google"></i></a><a href="https://www.instagram.com/repairitt/"><i class="fa-brands fa-instagram"></i></a>
+                   </th>
+                 </tr>
+                </thead>
+               </table>
+            </div>
+          </div>
+          <div>
+            <p style="font-family: 'Koulen', cursive; color: white; margin-left: 40%;">© 2022 Siddharth Shravan Jha</p>
+          </div>
+      </section>
+
+    <!--bootstrap poppers--->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <!--bootstrap JS--->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+      </body>
+    </html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Website's Icon-->
+    <link rel="icon" href="Images/ICON.png">
+    <title>Repair IT | Jobs</title>
+<!--bootstrap CDN-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+<!--Google Fonts API-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@700&family=Edu+SA+Beginner&family=Koulen&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+<!--Font Awesome CDN link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Iconscout CSS-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<!--local External CSS file link-->
+   <link rel="stylesheet" href="CSS/Customer-order.css">
+  </head>
+  <body>
+       <div class="container">
+         <header>Apply Here</header>
+         <form class="" action="/Jobs" method="post">
+           <div class="form first">
+               <div class="details personal">
+                 <span class="title">Personal Details</span>
+                 <div class="fields">
+                     <div class="input-field">
+                       <label for="">Name</label>
+                         <input type="text" name="name" value="" placeholder="Full Name" required>
+                     </div>
+                     <div class="input-field">
+                       <label for="">Date of Birth</label>
+                         <input type="date" name="DOB" value="" required>
+                     </div>
+                     <div class="input-field">
+                       <label for="">Email</label>
+                         <input type="email" name="email" value="" placeholder="Email Address" required>
+                     </div>
+                     <div class="input-field">
+                       <label for="">Mobile No.</label>
+                         <input type="number" name="Mobile" value="" placeholder="Personal Number" required>
+                     </div>
+                     <div class="input-field">
+                       <label for="">Gender</label>
+                       <select name="Gender" id="cars">
+                         <option value="Male" selected>Male</option>
+                         <option value="Female">Female</option>
+                         <option value="Others">Others</option>
+                       </select>
+                     </div>
+                     <div class="input-field">
+                       <label for="">Previous Occupation</label>
+                         <input type="text" name="PrevOccupation" value="" placeholder="eg. Fresher">
+                     </div>
+
+                     <div class="details ID">
+                       <span class="title">Jobs Specifications</span>
+                       <div class="fields">
+                           <div class="input-field">
+                             <label for="">Work as a</label>
+                             <select name="work">
+                               <option value="SDE">Developer</option>
+                               <option value="Calling">Call Center</option>
+                               <option value="Technician" selected>Technician</option>
+                               <option value="other">Other</option>
+                             </select>
+                           </div>
+                           <div class="input-field">
+                             <label for="">Job Role</label>
+                               <input type="text" name="JobRole" value="" placeholder="eg. PC Repairing" required>
+                           </div>
+                           <div class="input-field">
+                             <label for="">Aadhar Card<span style="color: red; margin-left: 2px;">(.pdf format only, upto 200kb)</span></label>
+                             <input type="file" name="Vehicle" value="">
+                           </div>
+                           <div class="input-field">
+                             <label for="">Photo<span style="color: red; margin-left: 2px;">(.jpg format only, upto 20kb)</span></label>
+                               <input type="file" name="Photo" value="" required>
+                           </div>
+                           <div class="input-field">
+                             <label for="">Signature<span style="color: red; margin-left: 2px;">(.jpg format only, upto 20kb)</span></label>
+                               <input type="file" name="sign" value="" required>
+                           </div>
+                           <div class="input-field">
+                             <label for="">Resume<span style="color: red; margin-left: 2px;">(.pdf format only, upto 200kb)</span></label>
+                               <input type="file" name="resume" value="" required>
+                           </div>
+                           <button class="nextBtn" type="button" name="button"><span class="btnText">Next</span><i class="uil uil-navigator"></i></button>
+                 </div>
+               </div>
+           </div>
+         </div>
+         </div>
+
+         <div class="form second">
+             <div class="details address">
+               <span class="title">Address Details</span>
+               <div class="fields">
+                   <div class="input-field">
+                     <label for="">Address</label>
+                       <input type="text" name="address" value="" placeholder="House No. xyz" required>
+                   </div>
+                   <div class="input-field">
+                     <label for="">Nationality</label>
+                       <input type="text" name="Nationality" value="" placeholder="Indian" required>
+                   </div>
+                   <div class="input-field">
+                     <label for="">State</label>
+                       <input type="text" name="State" value="" placeholder="Delhi" required>
+                   </div>
+                   <div class="input-field">
+                     <label for="">District</label>
+                       <input type="text" name="District" value="" placeholder="eg. South-west Delhi" required>
+                   </div>
+                   <div class="input-field">
+                     <label for="">PIN Code</label>
+                       <input type="number" name="PIN" value="" placeholder="eg. 110038" required>
+                   </div>
+                   <div class="input-field">
+                     <label for="">Landmark</label>
+                       <input type="text" name="Landmark" value="" placeholder="GuptaJi Paan bhandar">
+                   </div>
+
+                   <div class="details family">
+                     <span class="title">Please Answer</span>
+                     <div class="fields">
+                         <div class="input-field">
+                             <label for="">Why should you be hired for this role?</label>
+                             <input type="text" name="Ques1" value="" placeholder="Please Answer" required>
+                          </div>
+                          <div class="input-field">
+                             <label for="">what is the earliest date you can start this job?</label>
+                             <input type="date" name="Ques2" value="" required>
+                          </div>
+                          <div class="input-field">
+                             <label for="">Experience of Marketting?</label>
+                             <input type="text" name="Ques3" value="" placeholder="eg. Yes" required>
+                          </div>
+                          <div class="input-field">
+                             <label for="">What are your expectations from this Job?</label>
+                             <input type="text" name="Ques4" value="" placeholder="Please Answer" required>
+                          </div>
+                          <div class="input-field">
+                             <label for="">How much you want your salary to be?</label>
+                             <input type="text" name="Ques5" value="" placeholder="eg. Rs. 2,00,000/pa." required>
+                          </div>
+                          <div class="input-field">
+                             <label for=""></label>
+                             <input type="hidden" name="" value="0000">
+                          </div>
+                      </div>
+                      <div class="buttons">
+                           <div class="backBtn" type="button" name="button"><i class="uil uil-navigator"></i><span class="btnText">Back</span></div>
+                           <button class="nextBtn" type="submit" name="button" onclick = "fun();"><span class="btnText">Submit</span></button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </form>
+            </div>
+
+   <script type="text/javascript">
+   function fun() {
+
+
+               alert ("Your application has been Submitted, Our Executive will call you shortly");
+            }
+   const form = document.querySelector("form"),
+           nextBtn = form.querySelector(".nextBtn"),
+           backBtn = form.querySelector(".backBtn"),
+           allInput = form.querySelectorAll(".first input");
+
+   nextBtn.addEventListener("click", ()=> {
+     allInput.forEach(input => {
+       if(input.value != ""){
+         form.classList.add('secActive');
+       }else {
+         form.classList.remove('secActive');
+       }
+     })
+   })
+
+   backBtn.addEventListener("click", ()=> form.classList.remove('secActive'));
+   </script>
+  </body>
+</html>

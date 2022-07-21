@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Website's Icon-->
+    <link rel="icon" href="Images/ICON.png">
+    <title>Repair It | Laptop Repairing</title>
+<!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@700&family=Edu+SA+Beginner&family=Koulen&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+<!--Font Awesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--local External CSS file link-->
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+
+  <body
+    <section id="title">
+  <!--Top Container will contain nav-bar of following items:
+        1) Login & SignUp buttons
+        2) About
+        3) Contacts
+        4) Jobs-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+     <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img id="Logo" src="Images/ICON.png" alt="logo">Repair It</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html#about"><i class="fa-solid fa-envelope"></i> About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#Contact"><i class="fa-solid fa-phone"></i> Contact</a></li>
+            <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-briefcase"></i> Jobs</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="Jobs.html">SDE</a></li>
+                <li><a class="dropdown-item" href="Jobs.html">Technician</a></li>
+                <li><a class="dropdown-item" href="Jobs.html">BPO</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Jobs.html">Others</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active" href="Login.html"><button type="button" class="btn btn-primary">Login</button></a></li>
+            <li class="nav-item"><a class="nav-link active" href="Login.html"><button type="button" class="btn btn-outline-light">Sign Up</button></a></li>
+          </ul>
+        </div>
+     </div>
+    </nav>
+  </section>
+
+  <div class="navigation">
+    <ul style="padding-left: 12px;">
+      <li><a href="#Cateogory"><span class="icon"><i class="fa-solid fa-book-open"></i> <span class="title">Cateogries</span></a></li>
+      <li><a href="#Background"><span class="icon"><i class="fa-solid fa-puzzle-piece"></i> <span class="title">Background</span></a></li>
+      <li><a href="#Common"><span class="icon"><i class="fa-solid fa-laptop"></i> <span class="title">Laptops</span></a></li>
+      <li><a href="#Desktop"><span class="icon"><i class="fa-solid fa-computer"></i> <span class="title">Desktops</span></a></li>
+      <li><a href="#Netbook"><span class="icon"><i class="fa-solid fa-house-laptop"></i> <span class="title">Netbook</span></a></li>
+      <li><a href="#Chromebook"><span class="icon"><i class="fa-solid fa-laptop-file"></i> <span class="title">Chromebook</span></a></li>
+    </ul>
+  </div>
+
+<section style="margin-top: 130px; margin-left: 100px;">
+  <h1 id="Cateogory" style="font-family: 'Koulen', cursive;">Cateogries</h1>
+  <div class="row" style="margin-top: 0px; margin-left: 0px;margin-right: 0;">
+    <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+      <img src="Images/Cateogory-Laptop.png" alt="Laptops" style="width: 250px; margin-top: 40px;">
+      <h5 style="text-align: center;">Laptops</h5>
+    </div>
+    <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+      <img src="Images/Cateogory-Desktop.jpg" alt="Desktops" style="width: 180px;">
+      <h5 style="text-align: center;">Desktops</h5>
+    </div>
+    <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+      <img src="Images/Cateogory-Netbook.png" alt="Netbook_PC" style="width: 180px; margin-top: 40px;">
+      <h5 style="text-align: center;">Netbooks</h5>
+    </div>
+    <div class="col-lg-2 col-md-2" style="border: 1px solid black; border-radius: 28px; margin-right: 50px;">
+      <img src="Images/Cateogory-Chromebook.webp" alt="Chromebook" style="width: 180px; margin-top: 40px;">
+      <h5 style="text-align: center;">Chromebooks</h5>
+    </div>
+  </div>
+</section>
+
+
+<section id="Background" style="margin-top: 130px; margin-left: 100px;">
+  <div class="container-fluid">
+    <h1 style="font-family: 'Koulen', cursive;">Background and Identification</h1><hr>
+     <p>Identifying exactly which computer you own can sometimes be a challenge, depending on the manufacturer. Usually the manufacturer name is listed on the front, while the exact model number may be found on the back.</p><br>
+     <p>Digital computers have existed in various forms since the early 1940s. One of the most prominent computers of the time, the ENIAC, used vacuum tubes and was considered to be the first general purpose electronic computer. However, computer manufacturers in the early 1960s started using transistors. The development of integrated circuits (ICs) made computers steadily increase in computing power, all the while bringing down costs of manufacture and power consumption.</p><br>
+     <p>By the 1980s the first personal computers came on the market, giving the casual user unparalleled computing abilities at home.</p>
+  </div>
+</section>
+
+<section id="Common" style="margin-top: 130px; margin-left: 100px;">
+  <div class="container-fluid">
+      <h1 style="font-family: 'Koulen', cursive;">Common Laptop Problems Prevalent in Delhi</h1><hr>
+      <p>Delhi is a fast-paced city on its way to joining the league of various corporate hubs. It is the same city that houses one of the finest places for the IT sector and Tech enthusiasts. Everyone in the town works on their Laptop devices regularly for various purposes.</p><br>
+      <p>The hot summer and extremely cold winters sometimes make the job harder for Laptop devices to work effectively. With time, the Laptops start deteriorating, depending on how the device is used and handled. Various issues arise like a dead battery, broken screen, spilled water or tea, and slow performance.</p><br>
+      <p>REPAIR IT is the ultimate solution an individual in Delhi would be looking for to eliminate all issues. With our highly skilled technicians, high-quality spare parts, and the promise of an assured warranty, we offer a smarter way to repair your Laptop devices, from motherboard repair to replacement of parts like screen, battery, keyboard, touchpad and others. All under one roof at the REPAIR IT's  online Solutions in Delhi</p><br>
+      <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+  </div>
+</section>
+
+<section id="Desktop" style="margin-top: 130px; margin-left: 100px;">
+  <h1 style="font-family: 'Koulen', cursive;">Desktop PC</h1><hr>
+  <p>A Desktop Personal Computer is a computer which allows the user to work at a singular location, usually at a table or desk. Desktop computers do not necessarily include a built in display or keyboard, so additional peripherals may be required for function.</p>
+  <p>The first computer to actually sit completely atop a desk in 1970 was the Datapoint 2200, designed by the Computer Terminal Corporation to interface with a mainframe computer, but had the ability to function as a stand alone computer. 1977 saw the first “home” computers to be marketed towards the consumer market in the Apple II, the Commodore PET, and the TRS-80. Throughout the 1980’s and early 90’s, the design consisted largely of a horizontal oriented case, with integrated keyboards and a display which sat on top. Over the course of the 90’s, this design fell out of fashion in favor of the contemporary “tower” case design, where the components of the computer are encased in a vertically oriented case with ports on the back to connect the user’s choice of peripherals.</p>
+  <p>Nowadays, the desktop computer takes many forms, from a compact case roughly the size of an optical drive, to all-in-one machines with integrated screens and keyboards, to full-sized, liquid-cooled, powerful gaming PCs. Although they have become less popular over the years as laptops have gained mass appeal, desktops are still used and even preferred for intensive computing and high-performance gaming.</p>
+
+  <h1 style="font-family: 'Koulen', cursive; margin-top: 20px;">Common Problems of Desktop PC</h1><hr>
+  <ul>
+    <li>Slow Performance</li>
+    <li>Loud Noises From Computer</li>
+    <li>Computer Constantly Freezes</li>
+    <li>Internet Browsing Is Slow or Unresponsive</li>
+    <li>You’re Seeing a BSOD (Blue Screen of Death)</li>
+    <li>Screen Display Is Truncated or Has Low Resolution</li>
+  </ul>
+  <p>Regardless of the industry you work in, computers play a vital role in the productivity of your organization. And for the most part, new software and hardware advancements released over the years have made you more efficient than ever before.</p>
+  <p>But if you’re regularly using computers in your day-to-day processes, you’ll eventually run into some technical problems that need your attention. Thankfully, there are steps you can take to remedy the issues and carry on with your workday.</p>
+  <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+</section>
+
+<section id="Netbook" style="margin-top: 130px; margin-left: 100px;">
+  <h1 style="font-family: 'Koulen', cursive;">Netbooks</h1><hr>
+  <p>If given a choice between computer and a laptop, what would you choose?</p>
+  <p>We’re guessing a laptop because they’re light weight and portable, unlike computers. In fact, if you’re constantly on the go, you’ll know the importance of a laptop and also some common problems that often arise in a laptop. Apart from a laptop warranty, what can really save you from these common problems are some tips listed below</p><br>
+  <h5>1. When Your Laptop Slows Down</h5>
+  <p>Laptops usually slows down when there are too many files and programs saved on it, as a result of regular use. To avoid this problem, we recommend you free up some space on the hard drive by deleting temporary files, keeping your desktop organised and getting rid of programs you don’t regularly use. You could also transfer old files to an external hard drive to improve your laptops performance.</p><br>
+  <h5>2. Automatic Shut Downs</h5>
+  <p>This is most likely due to overheating, which is usually caused due to dust build-up in the case and around the fan. If your laptop keeps shutting down more often, try cleaning it thoroughly to get rid of dust. The simplest way to do this is to blow air into the side vent. Make sure you do this when the laptop is turned off completely. If this doesn’t help, you can get a cooling fan for your laptop.<p><br>
+  <h5>3. The Battery Keeps Draining</h5>
+  <p>Laptops usually have a good battery life of over 4-5 hours, if you use it at a stretch. But if your laptop’s battery drains out quickly, the first thing you should do is reduce the number of open tasks. This puts an additional drain on the battery. Avoid keeping multiple windows open and disable the bluetooth option to avoid draining your laptop battery further. Lastly, switch on the ‘Energy Saving’ mode and keep the brightness low. If you’re using Windows XP, go to ‘Settings’ and click “Power Options” in your control panel. Similarly, on a Macbook, go to ‘Settings’ and search for  “Energy Saver” in System Preferences to adjust the brightness.</p><br>
+  <h5>4. Battery Doesn’t Charge</h5>
+  <p>If your laptop battery stops charging, you’ll need to replace it even if your laptop is under warranty, as batteries are not covered in the manufacturer’s warranty period. If your laptop’s battery is not removable, you’ll need to replace the laptop.</p><br>
+  <p>There are a lot of other issues that arise in a laptop, especially after a year or two of the manufacturer’s warranty period. This includes motherboard failure, hard drive failure, LCD malfunction, processor malfunction, etc. If your laptop is covered with an extended warranty plan, you need not worry about spending on repairs at the last minute. The REPAIR IT's Extended Warranty plan includes everything that is covered in a standard manufacturer’s warranty and starts immediately after the expiry of the manufacturer’s warranty.</p>
+  <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+</section>
+
+<section id="Chromebook" style="margin-top: 130px; margin-left: 100px;">
+  <h1 style="font-family: 'Koulen', cursive;">Chromebok</h1><hr>
+  <p>A Chromebook is a laptop or a tablet that runs a Chrome OS operating system. They also have limited offline capability and are meant to operate a variety of tasks using the Google Chrome browser. Most of the data and applications are on the cloud and not on the machine itself. Because of this, they are not using traditional applications like word processing or instant messaging but instead Web apps from the Chrome Web Store. You aren’t able to install third-party software on a Chromebook, like with devices that have Windows 10 or macOS. In order to get apps, you have to go to Google Play Store. There are some features that can be viewed offline such as Gmail, Google Calendar, Google Keep, Google Drive, Amazon's Cloud Reader, the New York Times App, and Angry Birds. Android Apps are available on all newer Chromebooks. With the exception of the first three released devices, Chromebook uses Coreboot. Many Chromebooks on the market are of the same size as late model Netbooks from 2010-2011 and are an indirect replacement for many of these "Wintel" netbooks.</p><br>
+  <p>The first Chromebooks to the market were from Acer and Samsung in 2011. They were introduced at the Google I/O conference and started selling a few months later. Two years later Lenovo, Hewlett Packard and Google entered the market. There are also non-laptop versions that have been released, for example the Chromebox was introduced in 2012. It was a desktop. In 2014, an “all-in-one” device called the Chromebase by LG was introduced. And in 2018 Acer and Google both released Chromebook tablets.</p><br>
+  <p>There are pros and cons of using a Chromebook. For example, Chromebooks are a lot faster than a regular laptop because they aren't slowed down with Windows bloatware and junk programs taking up storage. You have fewer background processes running for this reason, which makes the Chrome OS quicker. However, a downside is you can’t run your legacy macOS or Windows programs on a Chromebook.</p><br>
+  <p>These features make a Chromebook a better choice for someone who needs a simple laptop to browse the web, or students who need a laptop to use for school and need a cheap (but capable) laptop. These advantages, along with robust serial number-based remote management on Retail, and Chromebooks for education (which include the management license with the Chromebook must be purchased separately for Retail non-EDU models). They are becoming popular in the classroom and "one laptop per child" programs.</p>
+  <a href="/login" method="get" class="btn btn-primary">Book Service</a>
+</section>
+
+<section id="Contact">
+  <!--contains Contacting details-->
+      <div class="row" style="margin-right: 0;">
+        <div class="col-lg-6" style="margin-top: 45px;">
+          <h1 style="font-family: 'Koulen', cursive; color: white; margin-left: 20px;">Let's Talk</h1>
+          <p style="font-family: 'PT Serif', serif;; color: white; margin-left: 20px;">We want opinions from our Customers about how can we strengthen/ improve our services through this online platform. Also, Our customers can suggest us UI designs, BUGS and accessebility issues, we will update them. </p>
+        </div>
+        <div class="col-lg-6" style="margin-top: 45px;">
+          <table class="table table-borderless">
+            <thead>
+             <tr>
+               <th scope="col" class="foot-table">Email</th>
+               <th scope="col" class="foot-table-meta">CustomerService@repairIt.in</th>
+             </tr>
+            </thead>
+            <thead>
+             <tr>
+               <th scope="col" class="foot-table">Phone</th>
+               <th scope="col" class="foot-table-meta">(+91) 9635757575</th>
+             </tr>
+            </thead>
+            <thead>
+             <tr>
+               <th scope="col" class="foot-table">Address</th>
+               <th scope="col" class="foot-table-meta">Office No. 116/117, Gurgaon Tech Hub, Uttar Pradesh</th>
+             </tr>
+            </thead>
+            <thead>
+             <tr>
+               <th scope="col"></th>
+               <th scope="col" class="foot-table-meta"><a href="https://www.facebook.com/profile.php?id=100083574849850"><i class="fa-brands fa-facebook"></i></a><a href="https://twitter.com/RepairitCom?t=Iqzgh1nlB1p2PpBTK0OFNw&s=09"><i class="fa-brands fa-twitter"></i></a><a href="mailto:repairit011@gmail.com"><i class="fa-brands fa-google"></i></a><a href="https://www.instagram.com/repairitt/"><i class="fa-brands fa-instagram"></i></a>
+               </th>
+             </tr>
+            </thead>
+           </table>
+        </div>
+      </div>
+      <div>
+        <p style="font-family: 'Koulen', cursive; color: white; margin-left: 40%;">© 2022 Siddharth Shravan Jha</p>
+      </div>
+  </section>
+
+<!--bootstrap poppers--->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<!--bootstrap JS--->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+  </body>
+</html>

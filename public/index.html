@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Website's Icon-->
+    <link rel="icon" href="Images/ICON.png">
+    <title>Repair IT</title>
+<!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Google Fonts API-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@700&family=Edu+SA+Beginner&family=Koulen&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+<!--Font Awesome CDN link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--local External CSS file link-->
+    <link rel="stylesheet" href="CSS/index-style.css">
+  </head>
+
+<!-- BUG: When You stick navbar to top, whole webpage gets distorted-->
+  <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Scroll to top <i class="fa-solid fa-angles-up"></i></button>
+  <section id="title" style="background-image: url('Images/Homepage-banner.jpg');">
+<!--Top Container will contain nav-bar of following items:
+      1) Login & SignUp buttons
+      2) About
+      3) Contacts
+      4) Jobs-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="Logo" src="Images/ICON.png" alt="logo">Repair It</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about"><i class="fa-solid fa-envelope"></i> About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#Contact"><i class="fa-solid fa-phone"></i> Contact</a></li>
+          <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-briefcase"></i> Jobs</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Jobs.html">SDE</a></li>
+              <li><a class="dropdown-item" href="Jobs.html">Technician</a></li>
+              <li><a class="dropdown-item" href="Jobs.html">BPO</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Jobs.html">Others</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="/login" method="get"><button type="button" class="btn btn-primary">Login</button></a></li>
+          <li class="nav-item"><a class="nav-link active" href="/register" method="get"><button type="button" class="btn btn-outline-light">Sign Up</button></a></li>
+        </ul>
+      </div>
+   </div>
+  </nav>
+
+ <div class="Top-container">
+<!--inside div conatins Banner as well as Book a Technician Button over it-->
+      <h1 id="Headline">Don't CHANGE IT </h1>
+      <p><span id="paragraph">REPAIR IT</span></p>
+      <a href="#services"><button type="button" class="btn btn-primary btn-lg book_btn">Book a Technician</button></a>
+ </div>
+</section>
+
+<section id="features">
+<!--Bottom Container contains Features, must include Bargain Feature-->
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <i class="fa-solid fa-hand-holding-hand feature_icon"></i>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <h4><strong>Customer Service</strong></h4>
+            <p id="Features-paragraph">Computer problems are usually ongoing. Even when they're solved, there are usually still lingering effects. As such, REPAIR IT provides quality customer services. Give a call to the REPAIR IT's Customer Care and speak to the people who answer the phone. Ask a few questions and see if you're satisfied with the answers. You might even consider inquiring about the level of customer service that you can expect to receive in the future. Make sure that you feel comfortable with the way the company's representatives are treating you.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h4><strong>Reasonable Price</strong></h4>
+          <p id="Features-paragraph">There's no regulation on how much computer repair shops can charge for their services. As such, prices can vary wildly. So, to ensure that you're not hit with any surprisingly large bills, But, Don't Worry REPAIR IT's Policy Come with <strong>Bargaining facility</strong> as comparison from several companies in your area. Give a call and tell us what kind of problem you're facing, asking how much it will cost to have it fixed.
+           Once you have the estimates in your hand, compare them against one another. Be a little leery of exceedingly low estimates, as they can sometimes indicate a lack of quality or experience. Generally speaking, it's wise to choose an estimate that's around the average.</p>
+         </div>
+        <div class="col-lg-6 col-md-12">
+          <i class="fa-solid fa-hand-holding-dollar feature_icon"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <<i class="fa-solid fa-laptop-medical feature_icon"></i>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <h4><strong>Experience with your Technology</strong></h4>
+            <p id="Features-paragraph">Not only REPAIR IT' Technicians have general experience but experience with your technology as well. In other words, if you need to have a Macbook repaired, for instance, REPAIR IT's Technicians have some experience repairing Macbooks. Or, if you need to have a Windows computer repaired, for example, REPAIR IT's Technicians are experienced repairing problems with Windows operating systems.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+<!--Middle Container contains Three types of Services, Laptop, Mobile and Others. styled with bootstrap cards-->
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="Images/card1.jpeg" class="card-img-top" alt="PC Repair">
+                    <div class="card-body">
+                        <h5 class="card-title">Repair Your PC/Laptop</h5>
+                        <p class="card-text">It's Time to upgrade your old Laptops and Desktop Computers to a whole new level. </p>
+                        <a href="/PC_repair" class="btn btn-primary">Book Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="Images/card2.jpeg" class="card-img-top" alt="Mobile Repair">
+                    <div class="card-body">
+                        <h5 class="card-title">Repair Your Smartphones</h5>
+                        <p class="card-text">Repairing your old Phones, but don't looked repaired ? Try Professionals Repairing Services.</p>
+                        <a href="/mobile_repair" class="btn btn-primary">Book Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="Images/card3.jpg" class="card-img-top" alt="New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Repair Your Electrical appliances</h5>
+                        <p class="card-text">Repair all your Electronics products by a Professional Techician.</p>
+                        <a href="/others" class="btn btn-primary">Book Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+  <h1 id="About-Us" style="text-align: center;">About Us</h1>
+  <div class="container-fluid about">
+    <h1 id="about-heading">Who we are</h1>
+    <p id="about-paragraph">REPAIR IT is students initiative online home services platform.  Launched in July,2022, REPAIR IT today operates in New Delhi, Delhi only, but we are trying our best to spread this service to whole Globe. The platform helps customers book reliable & high quality repairing services - appliance repair, such as, Desktop Computers, Laptops, Telephones, TVs and more – delivered by trained professionals conveniently at home.   REPAIR IT's vision is to empower millions of professionals worldwide to deliver services at home like never experienced before. The Company raised funding of Rs. 4000 in May 2022. The funding was led by Delhi Govt.</p>
+    <h1 id="about-heading">How we do it</h1>
+    <p id="about-paragraph">REPAIR IT provides a platform that allows skilled and experienced professionals to connect with users looking for specific services. Once on the platform, our match-making algorithm identifies professionals who are closest to the users’ requirements and available at the requested time and date.</p>
+    <h1 id="about-heading">Soon Available in</h1>
+    <div class="row">
+      <div class="col">
+        <img src="Images/Upcoming.png" alt="cities" class="center">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="feedback" style="background-image: url('Images/feedback-img.jpeg')">
+<!--Contains Feedbacks form for customer-->
+      <div class="form-box">
+        <form action="/feedback" method="post">
+          <h1><strong>Give Your Feedback</strong></h1>
+          <div class="id">
+            <input type="text" name="name" value="" placeholder="Full Name">
+            <i class="far fa-user"></i>
+          </div>
+          <div class="id">
+            <input type="email" name="email" value="" placeholder="Email Address">
+            <i class="far fa-envelope"></i>
+          </div>
+          <textarea name="feedback" rows="5" cols="15" placeholder="Please Enter Your Feedbacks Here!"></textarea>
+          <button type="submit" name="button">Send</button>
+        </form>
+      </div>
+</section>
+
+
+<section id="Contact">
+<!--contains Contacting details-->
+    <div class="row">
+      <div class="col-lg-6" style="margin-top: 45px;">
+        <h1 style="font-family: 'Koulen', cursive; color: white; margin-left: 20px;">Let's Talk</h1>
+        <p style="font-family: 'PT Serif', serif;; color: white; margin-left: 20px;">We want opinions from our Customers about how can we strengthen/ improve our services through this online platform. Also, Our customers can suggest us UI designs, BUGS and accessebility issues, we will update them. </p>
+      </div>
+      <div class="col-lg-6" style="margin-top: 45px;">
+        <table class="table table-borderless">
+          <thead>
+           <tr>
+             <th scope="col" class="foot-table">Email</th>
+             <th scope="col" class="foot-table-meta">CustomerService@repairIt.in</th>
+           </tr>
+          </thead>
+          <thead>
+           <tr>
+             <th scope="col" class="foot-table">Phone</th>
+             <th scope="col" class="foot-table-meta">(+91) 9635757575</th>
+           </tr>
+          </thead>
+          <thead>
+           <tr>
+             <th scope="col" class="foot-table">Address</th>
+             <th scope="col" class="foot-table-meta">Office No. 116/117, Gurgaon Tech Hub, Uttar Pradesh</th>
+           </tr>
+          </thead>
+          <thead>
+           <tr>
+             <th scope="col"></th>
+             <th scope="col" class="foot-table-meta"><a href="https://www.facebook.com/profile.php?id=100083574849850"><i class="fa-brands fa-facebook"></i></a><a href="https://twitter.com/RepairitCom?t=Iqzgh1nlB1p2PpBTK0OFNw&s=09"><i class="fa-brands fa-twitter"></i></a><a href="mailto:repairit011@gmail.com"><i class="fa-brands fa-google"></i></a><a href="https://www.instagram.com/repairitt/"><i class="fa-brands fa-instagram"></i></a>
+             </th>
+           </tr>
+          </thead>
+         </table>
+      </div>
+    </div>
+    <div>
+      <p style="font-family: 'Koulen', cursive; color: white; margin-left: 40%;">© 2022 Siddharth Shravan Jha</p>
+    </div>
+</section>
+
+<!--Scroll to Top Button-->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!--bootstrap poppers-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<!--bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

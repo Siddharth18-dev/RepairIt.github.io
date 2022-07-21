@@ -1,0 +1,97 @@
+/******************HTmLTags************************/
+/*****************CLasses************************/
+.navbar-brand {
+  font-size: 38px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.foot-table {
+  color: white;
+}
+
+.foot-table-meta {
+  color: #306dbc;
+}
+
+.foot-table-meta i {
+  font-size: 35px;
+  margin: 0 15px 0 15px;
+}
+
+.navigation {
+  margin-top: 2px;
+  position: fixed;
+  width:40px;
+  height: 50%;
+  background: #3e0748;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.navigation:hover {
+  width: 200px;
+}
+
+.navigation ul{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+.navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.navigation ul li:hover {
+  background: #ea1d63;
+}
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation ul li a  .icon {
+  font-size: 20px;
+  margin-left: 0px;
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+}
+
+.navigation ul li a  .icon .fa {
+  font-size: 24px;
+}
+
+.navigation ul li a  .title {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/***************IDs**************************/
+#Logo {
+  width: 100px;
+}
+
+#Contact {
+  background-color: #1b2b4b;
+  font-family: 'PT Serif', serif;
+}
+
+#Contact .row {
+  margin-top: 45px;
+}
